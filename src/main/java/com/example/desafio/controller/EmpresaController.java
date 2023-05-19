@@ -23,6 +23,7 @@ public class EmpresaController {
         return;
 
     }
+
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping
     public List<EmpresaResponseDTO> getAll(){
